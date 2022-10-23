@@ -18,13 +18,16 @@ IS_SUCCESSFUL—Was the money used effectively
 ## Results
 ### Target Variable
 
+The IS_SUCCESSFUL column is target variable in the model.
 
 ### Feature Variable
 
+The APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, and ASK_AMT columns are considered to be the features of the model.
 
 
 ### Neither Target Nor Features
 
+The EIN, NAME, STATUS, and SPECIAL_CONSIDERATION columns are neither targets nor features and should be removed from the input data.
 
 #### How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
