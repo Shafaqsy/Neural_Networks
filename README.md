@@ -31,7 +31,7 @@ The APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOM
 
 The EIN, STATUS and NAME columns are neither targets nor features and should be removed from the input data.
 
-#### How many neurons, layers, and activation functions did you select for your neural network model, and why?
+#### How many neurons, layers, and activation functions did you select for your neural network model?
 
 I choose 80 neurons with a relu function for my first layer, 30 nuerons with a relu function for the second, and a sigmoid function for the outer layer.
 
@@ -63,3 +63,4 @@ I have done three attempts at optimizing the model but my model does not achieve
 Overall, the accuracy score is 73% for all three attempts at optimizing the model. I have tried droping the another feature column and I have increased the number of values for each bin in APPLICATION_TYPE coulmn. Also, I have added number of neuron, hidden layer and changed the activation function. None of these changes had increased the accuracy score.
 
 #### RECOMMENDATION
+ I would recommend a supervised machine learning model such as the random forest classifier. This model is also appropriate for this binary classification problem and can often perform comparably to deep learning models with just two hidden layers. Random forest classifier is also advantageous as it is less influenced by outliers.
